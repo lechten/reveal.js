@@ -54,7 +54,7 @@ function Hilitor(id, tag)
       if((nv = node.nodeValue) && (regs = matchRegex.exec(nv))) {
       	//find the slide's section element and save it in our list of matching slides
       	var secnode = node.parentNode;
-      	while (secnode.nodeName != 'SECTION') {
+      	while (secnode && (secnode.nodeName != 'SECTION')) {
       		secnode = secnode.parentNode;
       	}
       	
