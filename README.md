@@ -126,10 +126,10 @@ You can write your content as a separate file and have reveal.js load it at runt
 When used locally, this feature requires that reveal.js [runs from a local web server](#full-setup).  The following example customises all available options:
 
 ```html
-<section data-markdown="example.md"  
-         data-separator="^\n\n\n"  
-         data-separator-vertical="^\n\n"  
-         data-separator-notes="^Note:"  
+<section data-markdown="example.md"
+         data-separator="^\n\n\n"
+         data-separator-vertical="^\n\n"
+         data-separator-notes="^Note:"
          data-charset="iso-8859-15">
 </section>
 ```
@@ -679,7 +679,7 @@ It's easy to link between slides. The first example below targets the index of a
 
 ```html
 <a href="#/2/2">Link</a>
-<a href="#/some-slide">Link</a>
+<a href="#some-slide">Link</a>
 ```
 
 You can also add relative navigation links, similar to the built in reveal.js controls, by appending one of the following classes on any element. Note that each element is automatically given an ```enabled``` class when it's a valid navigation route based on the current slide.

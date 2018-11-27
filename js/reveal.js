@@ -3619,7 +3619,7 @@
 
 				// If the current slide has an ID, use that as a named link
 				if( typeof id === 'string' && id.length ) {
-					url = '/' + id;
+					url = id;
 				}
 				// Otherwise use the /h/v index
 				else {
